@@ -1,3 +1,7 @@
+# Note
+
+Original repository does not work and is not maintained, so I forked and fixed it. :)
+
 # Datadoge
 
 This gem is notified of basic performance metrics for a Rails application, and sends the measurements to DataDog.
@@ -11,15 +15,11 @@ works on servers which have the Datadog Agent installed.
 
 Add this line to your application's Gemfile:
 
-    gem 'datadoge'
+    gem 'datadoge', git: 'git@github.com:ZilvinasKucinskas/datadoge.git'
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install datadoge
 
 ## Usage
 
